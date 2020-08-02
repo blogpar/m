@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title></title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="https://mldata.pro/23447/prices.js?product_ids=5259&{mleads_url}"></script>
+	<script type="text/javascript" src="subid.js"></script></head>
+	<body>
+		<style>
+		#country{display: block;
+    width: 400px;
+    padding: 8px 10px;
+    border: #888 1px solid;
+    font-size: 16px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: #fff;
+} 
+		</style>
+		<div id="wrapper">
+		<form action="/sendleads.php?" method="post" id="order_form" onsubmit="return cartTelCheck('phone', true, this, event);">
+			<fieldset>
+				<div class="row">
+					<p>
+						Страна
+					</p>
+				<span class="country"></span>
+			</div>
+				<div class="row">
+					<p>Ваше ФИО</p>
+					<input type="text" name="client">
+				</div>
+				<div class="row">
+					<p>Ваш телефон</p>
+					<input type="text" name="tel" id="phone" placeholder="Номер телефона в межд. формате" >
+				</div>
+				<div class="row">
+					<input type="submit" value="Заказать">
+				</div>
+			</fieldset>
+		</form>
+		</div>
+	</body>
+</html>
